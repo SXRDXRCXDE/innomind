@@ -86,7 +86,7 @@
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    @apply text-[20px] text-[#458FF6] hover:bg-[#458FF6] hover:text-white duration-300 cursor-pointer leading-[26px] translate-y-10 flex items-center justify-center w-64 h-14 rounded-full border-2 border-[#458FF6] self-center;
+    @apply text-[20px] text-[#458FF6]  hover:bg-[#458FF6] hover:text-white duration-300 cursor-pointer leading-[26px] translate-y-10 flex items-center justify-center w-64 h-14 rounded-full border-2 border-[#458FF6] self-center;
 }
 
 .amazing {
