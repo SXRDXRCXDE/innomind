@@ -47,7 +47,7 @@ export default function Header(){
 
                     <div className={'w-auto flex flex-row items-center gap-12 max-[1000px]:hidden'}>
 
-                        {NAV_LINKS.map((value, index)=> <Link className={style.nav_links} to={value.to}>{value.title}</Link>)}
+                        {NAV_LINKS.map((value, index)=> <Link onClick={()=>window.scrollTo(0,0)} className={style.nav_links} to={value.to}>{value.title}</Link>)}
 
                         <div className={style.button}>Contact us</div>
 

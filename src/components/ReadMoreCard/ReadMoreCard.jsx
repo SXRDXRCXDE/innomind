@@ -11,7 +11,7 @@ export default function ReadMoreCard({title,description,link,index}) {
             <img className={'w-16 h-24 object-contain'} src={pills_bottle} alt={'pills'}/>
             <div className={style.title}>{title}</div>
             <div className={style.description}>{description}</div>
-            <Link to={link} className={style.read_more}><div>Read more</div>  <LuMoveRight className={'ml-2 translate-y-0.5'} /> </Link>
+            <Link onClick={()=>window.scrollTo(0,0)} to={link} className={style.read_more}><div>Read more</div>  <LuMoveRight className={'ml-2 translate-y-0.5'} /> </Link>
         </div>
     </>
 }

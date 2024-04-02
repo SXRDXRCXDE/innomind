@@ -189,7 +189,7 @@ export default function Main() {
 
                     </div>
 
-                    <Link to={'/about_us'} className={style.read_more_button}>Read more about us</Link>
+                    <Link onClick={()=>window.scrollTo(0,0)} to={'/about_us'} className={style.read_more_button}>Read more about us</Link>
                 </div>
 
 
